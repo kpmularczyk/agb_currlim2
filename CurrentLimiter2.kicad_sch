@@ -313,187 +313,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -582,8 +401,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -591,8 +410,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BF457"
-				(at 5.08 0 0)
+			(property "Value" "BCP54"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -600,7 +419,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -611,7 +430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/4a8a48a4530fe82bf56c34437aedd277/BCP54_55_56.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -621,7 +440,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+			(property "Description" "NPN; bipolarny; 45V; 1A; 2W; SOT223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -723,8 +542,8 @@
 			)
 			(symbol "BF457_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
+					(at -5.08 0 0)
+					(length 5.08)
 					(name "E"
 						(effects
 							(font
@@ -759,8 +578,8 @@
 					)
 				)
 				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
+					(at 2.54 -5.08 90)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -1229,28 +1048,16 @@
 		)
 	)
 	(junction
-		(at 152.4 111.76)
+		(at 128.27 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "098fdcb1-ddbd-46d2-a45b-73a81133346b")
+		(uuid "2bf63134-0f4d-4ce0-ae21-cf2f49bb6bf4")
 	)
 	(junction
-		(at 132.08 100.33)
+		(at 139.7 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d205dca-0e16-45ce-a2f6-f7d38c569fec")
-	)
-	(junction
-		(at 152.4 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21896393-93cd-4bd3-8316-5f9dc5a73c60")
-	)
-	(junction
-		(at 132.08 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5278ed0-148a-42c7-af12-5ae82eecae58")
+		(uuid "9b0f433f-92e1-4557-80d5-318bfe651f75")
 	)
 	(junction
 		(at 128.27 92.71)
@@ -1259,26 +1066,10 @@
 		(uuid "d7ab4cb5-be52-4c48-aabf-40be59486eaa")
 	)
 	(junction
-		(at 139.7 111.76)
+		(at 128.27 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebaf0627-b747-4ef7-9ea2-28aae80aa873")
-	)
-	(junction
-		(at 139.7 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0893161-ab38-4136-9852-5b406abea972")
-	)
-	(wire
-		(pts
-			(xy 152.4 119.38) (xy 157.48 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03df2fa1-d4bf-42ec-91e1-b7702462112f")
+		(uuid "da7053ba-1317-4c4f-b49c-72d0b6046c44")
 	)
 	(wire
 		(pts
@@ -1292,26 +1083,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 142.24 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112fe7d2-4230-4bef-b184-662cd0426110")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 152.4 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ea88d6-867e-42f4-9577-2b4b953f7e06")
-	)
-	(wire
-		(pts
 			(xy 128.27 100.33) (xy 132.08 100.33)
 		)
 		(stroke
@@ -1322,17 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 139.7 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25097b17-00c1-4b8b-a940-b0b9cfc7f9b2")
-	)
-	(wire
-		(pts
-			(xy 110.49 119.38) (xy 110.49 104.14)
+			(xy 110.49 123.19) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1352,23 +1113,33 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.33) (xy 132.08 109.22)
+			(xy 128.27 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47c6a2c5-747f-4729-8181-23a53243fd8c")
+		(uuid "37b4f0aa-b189-4dc3-8fef-0d3565f899d5")
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 152.4 111.76)
+			(xy 135.89 106.68) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57a77b98-9b0f-465f-996a-5338fdbeeebe")
+		(uuid "3f39a760-2ecb-4b3b-9587-b9ffec0069d9")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457ffd1d-efc0-4fe2-8c35-5c47d2e8bc51")
 	)
 	(wire
 		(pts
@@ -1382,43 +1153,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 139.7 107.95)
+			(xy 128.27 111.76) (xy 128.27 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aff7ef4-eb84-49b2-85e6-d40bb5705860")
+		(uuid "5d36f467-744e-41d6-bc0a-41cf498ed238")
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 152.4 107.95)
+			(xy 128.27 101.6) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7aaad9b9-724e-4a50-80bd-d15be20587de")
+		(uuid "5ebf3afc-032d-4348-b756-26264e43b025")
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 152.4 119.38)
+			(xy 139.7 106.68) (xy 139.7 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d93d046-2e12-4eed-ba15-2215a890d985")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 142.24 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d68ad2-e2f3-45b3-9cf8-be472df12196")
+		(uuid "94bd86aa-4a88-4afd-97ff-cbbf853127ed")
 	)
 	(wire
 		(pts
@@ -1442,13 +1203,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 111.76) (xy 157.48 111.76)
+			(xy 139.7 107.95) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf1106f1-c644-43b8-9c42-f1b6c054a34e")
+		(uuid "a5dcf12c-f0e0-4e65-ade5-ddeb59aa6704")
 	)
 	(wire
 		(pts
@@ -1459,26 +1220,6 @@
 			(type default)
 		)
 		(uuid "d7e394a0-2fcb-40d5-b0cd-34dcea17c7d5")
-	)
-	(wire
-		(pts
-			(xy 139.7 111.76) (xy 139.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfebf6f9-93c3-4723-8a22-c752e5c7fcf7")
-	)
-	(wire
-		(pts
-			(xy 132.08 119.38) (xy 110.49 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e57108aa-6415-4e90-a94a-63a2a4787b4e")
 	)
 	(wire
 		(pts
@@ -1565,6 +1306,76 @@
 			(project "CurrentLimiter2"
 				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e8f459-5532-42db-a09c-0668caf5ecb2")
+		(property "Reference" "R2"
+			(at 142.24 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20m"
+			(at 142.24 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 137.922 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b77727-9216-4073-893f-28520daed775")
+		)
+		(pin "2"
+			(uuid "2b927a3c-a1e6-4d6f-9dfc-d64acdddfc56")
+		)
+		(instances
+			(project "CurrentLimiter2"
+				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 142.24 102.235 0)
 			(effects
 				(font
@@ -1711,142 +1522,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 146.05 107.95 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "948662ce-fd88-449a-aa0e-a2e22f817d4c")
-		(property "Reference" "JP1"
-			(at 151.892 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 160.274 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b11a779-910f-47df-a070-114fe4238e73")
-		)
-		(pin "1"
-			(uuid "e93b435b-d50e-458f-bfb6-96ed92e62e36")
-		)
-		(instances
-			(project "CurrentLimiter2"
-				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a214fd56-22d8-410d-8d8b-b1f8bf92ae90")
-		(property "Reference" "R4"
-			(at 146.304 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 146.05 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 146.05 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9f7cf27-d157-4029-85bb-449f0bf94ee4")
-		)
-		(pin "2"
-			(uuid "d2cd86c8-d91c-40b5-9891-9df9f3cfcdf9")
-		)
-		(instances
-			(project "CurrentLimiter2"
-				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BF457")
-		(at 134.62 114.3 0)
+		(at 130.81 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1856,7 +1533,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0f4cc26-2d7e-4264-aa78-85e8b4b8d892")
 		(property "Reference" "Q1"
-			(at 129.54 113.0299 0)
+			(at 125.73 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1542,7 @@
 			)
 		)
 		(property "Value" "BCP54"
-			(at 129.54 115.5699 0)
+			(at 125.73 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1551,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 129.54 116.205 0)
+			(at 125.73 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1562,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4a8a48a4530fe82bf56c34437aedd277/BCP54_55_56.pdf"
-			(at 134.62 114.3 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1572,7 @@
 			)
 		)
 		(property "Description" "NPN; bipolarny; 45V; 1A; 2W; SOT223"
-			(at 134.62 114.3 0)
+			(at 130.81 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "7k15"
 			(at 130.81 97.7899 0)
 			(effects
 				(font
@@ -1993,7 +1670,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 115.57 0)
+		(at 139.7 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2002,7 +1679,7 @@
 		(fields_autoplaced yes)
 		(uuid "e57e83e0-85ab-4c31-ba67-e60b53643a54")
 		(property "Reference" "R3"
-			(at 160.02 114.2999 0)
+			(at 142.24 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,8 +1687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 160.02 116.8399 0)
+		(property "Value" "470m"
+			(at 142.24 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,8 +1696,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 155.702 115.57 90)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 137.922 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 115.57 0)
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1715,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 115.57 0)
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,76 +1733,6 @@
 			(project "CurrentLimiter2"
 				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5f30a78-2a33-40fa-bd89-1d5e924f23dc")
-		(property "Reference" "R2"
-			(at 154.94 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 154.94 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 150.622 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a1e0cc4-b98e-447a-97a1-679d38cfe678")
-		)
-		(pin "2"
-			(uuid "66e31d20-4a0d-4e96-81d4-b5c4cc2b7f5c")
-		)
-		(instances
-			(project "CurrentLimiter2"
-				(path "/85c6563b-5baa-4111-9eb8-dd2e04d272f1"
-					(reference "R2")
 					(unit 1)
 				)
 			)
