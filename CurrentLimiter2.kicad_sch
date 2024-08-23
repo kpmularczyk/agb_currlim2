@@ -1473,7 +1473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 142.24 102.235 0)
 			(effects
 				(font
